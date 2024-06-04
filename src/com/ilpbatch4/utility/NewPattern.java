@@ -1,8 +1,10 @@
+package com.ilpbatch4.utility;
+
 public class NewPattern {
     public static void main(String[] args) {
-        int input = 5; 
+        int n = 5; 
 
-        for (int i = 1; i <= input; i++) {
+        for (int i = 1; i <= n; i++) {
             for (int j = 1; j <= i; j++) {
                 System.out.print("* ");
             }
